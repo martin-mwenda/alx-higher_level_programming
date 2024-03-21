@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-
-    from sys import argv
+    """Print the number of and list of arguments"""
+    import sys
     count = 1
 
-    
-    numargs = len(argv) - 1
+    numargs = len(sys.argv) - 1
     if numargs == 0:
         print(f"{numargs:d} arguments.")
     if numargs == 1:
