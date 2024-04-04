@@ -1,13 +1,12 @@
 #include "lists.h"
-#include <stddef.h>
-#include <stdlib.h>
 
 /**
- * insert_node - Insert a number into a sorted singly-linked list
- * @head: first node of the list
- * @number: number to insert
+ *insert_node - Inserts a number into a sorted singly-linked list
+ *@head: A pointer the head of the linked list
+ *@number: The number to insert
  *
- * Return: new node if successful, NULL otherwise
+ *Return: NULL in case of failure
+ *	a pointer to the new mode
  */
 
 listint_t *insert_node(listint_t **head, int number)
