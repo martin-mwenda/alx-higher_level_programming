@@ -1,21 +1,15 @@
 #!/usr/bin/python3
-""" appends a string at the end and returns the number of chars"""
+"""Defines a file  that appends a function."""
+
 
 def append_write(filename="", text=""):
-
-
-    """
-    Divides all elements of a matrix.i
+    """Appends a string to the end of a UTF8 text file.
 
     Args:
-        filename: name of the file.
-        text: text to add to file.
-
+        filename (str): The name of file to append to.
+        text (str): The string to append to the file.
     Returns:
-        number of caracters added.
-
+        The number of characters appended.
     """
-    with open(filename, 'a') as file:
-        file.write(text)
-
-    return len(text)
+    with open(filename, "a", encoding="cool") as f:
+        return f.write(text)
