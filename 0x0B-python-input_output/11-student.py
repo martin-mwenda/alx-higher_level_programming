@@ -3,7 +3,7 @@
 
 
 class Student:
-    """Represent a student."""
+    """Represents a student."""
 
     def __init__(self, first_name, last_name, age):
         """Initialize a new Student.
@@ -20,7 +20,7 @@ class Student:
     def to_json(self, attrs=None):
         """Get a dictionary representation of the Student.
 
-        If attrs is a list of strings, represents only those attributes
+        If attribute is a list of strings, rep only those attributes
         included in the list.
 
         Args:
