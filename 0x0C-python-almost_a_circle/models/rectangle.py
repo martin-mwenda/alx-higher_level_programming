@@ -19,9 +19,12 @@ class Rectangle(Base):
         Args:
             width (int): The width of the new Rectangle.
             height (int): The height of the new Rectangle.
-            x (int, optional): The x coordinate of the new Rectangle. Defaults to 0.
-            y (int, optional): The y coordinate of the new Rectangle. Defaults to 0.
-            id (int, optional): The identity of the new Rectangle. Defaults to None.
+            x (int, optional): The x coordinate of the new
+            Rectangle. Defaults to 0.
+            y (int, optional): The y coordinate of the new
+            Rectangle. Defaults to 0.
+            id (int, optional): The identity of the new
+            Rectangle. Defaults to None.
 
         Raises:
             TypeError: If either of width or height is not an int.
